@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'icons';
+    src: url('fonts/icons.ttf') format('truetype');
+}
+body{
+	background: #f5f2e7;
+}
+#chapters {
+  float: fixed;
+  left: 10px;
+  top: 56px;
+  padding: 0px;
+  background: #484848;
+  color: #fff;
+  text-shadow: 1px 1px 2px black;
+  font-size: 13px;
+  display: inline-block;
+  position: fixed;
+  user-select: none;
+}
+#chapters p{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	padding: 10px;
+	margin: 0;
+	cursor: pointer;
+}
+.back{
+  float: fixed;
+  padding: 0px;
+  background: #484848;
+  color: #fff;
+  text-shadow: 1px 1px 2px black;
+  font-size: 13px;
+  display: inline-block;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  text-align: center;
+}
+.back p{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	padding: 10px;
+	margin: 0;
+	cursor: pointer;
+  min-width: 17px;
+}
+
+
+#chapters p:nth-child(2n){
+	background-color: #525252;
+}
+
+.list_of_books{
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px 0px 0px 0px;
+}
+.list_of_books img{
+	width: 200px;
+}
+
+.logo{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 60px;
+	text-shadow: 1px 1px 2px #b4b4b4;
+	width: 960px;
+	margin: 0 auto;
+	padding: 27px 0px 0px 32px;
+}
+#submit{
+	margin-left: 100px;
+}
+
+.title_of_book{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	color: black;
+	text-shadow: 1px 1px 1px #fff;
+	font-size: 14px;
+	width: 160px;
+	padding: 0px 20px 0px 20px;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+	margin: 0 auto;
+	margin-top: 7px;
+}
+.author_of_book{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	color: #4a4a4a;
+	text-shadow: 1px 1px 2px #b4b4b4;
+	font-size: 13px;
+	width: 200px;
+	margin: 0 auto;
+    display: table-cell; 
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.cover_and_title{
+	width: 200px;
+	height: 400px;	
+	margin: 20px;
+	float: left;
+	cursor: pointer;
+}
+.cover_and_title:hover{
+	box-shadow: 0px 0px 5px #a6a6a6;
+}
+.cover_and_title img{
+	margin: 0 auto;
+}
+.reader_text{
+	width: 800px;
+	height: 800px;
+	overflow: hidden;
+	font-family: Georgia;
+	line-height: 40px;
+	font-size: 25px;
+	margin: 0 auto;
+	vertical-align: middle;
+	margin-top: 20px;
+}
+h3{
+	margin: 0px;
+	padding: 0px;
+	line-height: 40px;
+	font-size: 20px;
+}
+p{
+	margin-top: 0;
+	margin-bottom: 40px;
+	padding: 0;
+}
+#page_number{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  float: fixed;
+  padding: 10px;
+  background: #484848;
+  color: #fff;
+  min-width: 17px;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  font-size: 13px;
+  display: inline-block;
+  position: fixed;
+  right: 10px;
+  top: 56px;
+}
+
+#chapter_number{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  float: fixed;
+  padding: 10px;
+  background: #484848;
+  color: #fff;
+  min-width: 17px;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  font-size: 13px;
+  display: inline-block;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+}
+.translation{
+	font-size: 22px !important;
+	font-family: Georgia;
+}
+.additional{
+	font-size: 20px !important;
+	font-family: Georgia;
+}
